@@ -1,4 +1,4 @@
-q1
+//questão 1
 
 public static ArrayList<Pessoa> agrupar_geracao_X(ArrayList<Pessoa> base_de_pessoas) {
         /*
@@ -45,7 +45,7 @@ public static ArrayList<Pessoa> agrupar_geracao_X(ArrayList<Pessoa> base_de_pess
         return listaPessoas;
     }
 
-q2
+// questão 2
 
 ublic String traduzir_para_portugues(String termo) {
         try {
