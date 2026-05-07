@@ -55,8 +55,7 @@ ublic String traduzir_para_portugues(String termo) {
             Equivalencia eq = dicionario.get(k);
             return eq.para_portugues();
         } catch (AssertionError erro) {
-            System.out.println("-- TERMO INGL�S DESCONHECIDO --");
-            return "";
+            return "-- TERMO INGL�S DESCONHECIDO --";
         }
     }
 
@@ -68,7 +67,6 @@ ublic String traduzir_para_portugues(String termo) {
             Equivalencia eq = dicionario.get(k);
             return eq.para_ingles();
         } catch (AssertionError erro) {
-            System.out.println("-- TERMO PORTUGU�S DESCONHECIDO --");
-            return "";
+            return "-- TERMO PORTUGU�S DESCONHECIDO --";
         }
     }
